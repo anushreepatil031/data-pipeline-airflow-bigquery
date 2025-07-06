@@ -1,0 +1,5 @@
+order_id,order_date,city,product,quantity,unit_price
+1,2023-01-01,Austin,Shirt,10,25
+2,2023-01-02,Dallas,Jeans,5,40
+3,2023-01-03,Houston,Shoes,7,60
+4,2023-01-04,Austin,Jacket,3,120
