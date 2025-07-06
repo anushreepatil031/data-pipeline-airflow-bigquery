@@ -4,7 +4,7 @@ from datetime import datetime
 from etl_scripts.sales_etl import final_transform
 
 def run_etl():
-    file_path = '/path/to/your/local/sales_data_sample.csv'  # Update path if running locally
+    file_path = '/opt/airflow/data/sales_data_sample.csv'
     df = final_transform(file_path)
     print(df.head())
 
